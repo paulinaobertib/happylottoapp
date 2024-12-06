@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="10.161" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-12-05T22:32:23" tests="0" file="cypress\e2e\sorteoExitoso.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Mi primera prueba" timestamp="2024-12-05T22:32:23" tests="1" time="10.154" failures="1">
+    <testcase name="Mi primera prueba Carga correctamente la página de ejemplo" time="0.000" classname="Carga correctamente la página de ejemplo">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;button.swal2-confirm.swal2-styled&gt;&apos; to contain &apos;Sorteo Creado&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<button.swal2-confirm.swal2-styled>' to contain 'Sorteo Creado'
+    at Context.eval (webpack://happylotteryfront/./cypress/e2e/sorteoExitoso.cy.js:17:31)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

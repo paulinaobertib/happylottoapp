@@ -1,0 +1,78 @@
+body {
+    padding-top: 44%;
+    padding-bottom: 44%;
+}
+
+.lottery-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(47, 71, 211);
+}
+
+.form-group,
+.participant-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.participants-section {
+    margin-top: 20px;
+}
+
+.participants-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: rgb(30, 51, 162);
+}
+
+.add-button,
+.remove-button,
+.submit-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(47, 71, 211);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-button:hover,
+.remove-button:hover,
+.submit-button:hover {
+    background-color: rgb(30, 51, 162);
+}
+
+.remove-button {
+    background-color: #e63946;
+}
+
+.remove-button:hover {
+    background-color: #d62828;
+}
